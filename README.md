@@ -48,7 +48,7 @@ The I-COURT system aims to provide a convenient, real-time and user-friendly pla
 | **User Registration & Login** | Provides a secure authentication system where users create an account and log in based on roles (Student, Staff, Community, Administrator). Access to pages is controlled according to role permissions. | Students, Staff, Community Users, Admin |
 | **Homepage** | Main navigation hub showing system overview, links to court listings, court details, booking page, and user dashboard. | Registered Users |
 | **Facility Listings (MSC & FSC)** | Displays all available sports facilities divided into Male Sports Centre (MSC) and Female Sports Centre (FSC). Both genders can book any facility due to space limitations. Each listing shows court details and availability. | Registered Users |
-| **Court Details Page** | Shows full information of a selected court: location, type, available timeslots, pricing, and rules. | Registered User |
+| **Court Details Page** | Shows full information of a selected court: location, type, available timeslots, pricing, and rules. | Registered Users |
 | **Booking Page**| Allows users to fill booking information, select facility, choose date & timeslot, and proceed with reservation. Payment confirmation is required to complete booking. | Registered Users |
 | **User Dashboard**| Displays personal bookings, upcoming reservations, booking history, cancellation option, and profile updates. | Registered Users |
 | **Admin Dashboard**| Enables administrators to monitor all bookings, approve or reject requests, check live facility availability, update court status, and manage user records. | Administrators |
@@ -61,5 +61,5 @@ The I-COURT system aims to provide a convenient, real-time and user-friendly pla
 
 
 ```markdown
-![Entity Relationship Diagram](assets/diagrams/erd project.png)
+![Entity Relationship Diagram](assets/diagrams/erd_project.png)
 ![Sequence Diagram for User Registration](assets/diagrams/sequence_registration.png)
