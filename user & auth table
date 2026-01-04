@@ -1,22 +1,6 @@
 # USER & AUTH TABLES SCHEME
 
 ---
-### User Roles:
-- `student` (IIUM students)
-- `staff` (IIUM staff) 
-- `admin` (court managers)
-
-### User Information:
-- `name` (required)
-- `email` (required, unique)
-- `password` (required, encrypted)
-- `phone` (required for booking)
-- `matric_no` (optional, for students)
-
-### Password Handling:
-- Store encrypted passwords only
-- Use Laravel's built-in `Hash::make()`
----
 
 ### TABLE: users
 ```sql
