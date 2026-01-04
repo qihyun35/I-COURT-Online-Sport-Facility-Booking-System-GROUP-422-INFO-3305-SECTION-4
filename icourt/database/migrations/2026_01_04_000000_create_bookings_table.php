@@ -1,4 +1,5 @@
 <?php
+/* run in terminal : php artisan make:migration create_bookings_table */
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
